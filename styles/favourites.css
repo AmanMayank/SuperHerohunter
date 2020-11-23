@@ -1,0 +1,63 @@
+#favhero{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+    font-family: 'Goldman', cursive;
+    margin-top: 5%;
+}
+
+.hero{
+    height: 30%;
+    width: 18%;
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    text-align: center;
+
+}
+
+.profile{
+    height: 200px;
+    margin: 2px;
+}
+
+.uni{
+    padding: 2px;
+    margin-bottom: 5px;
+}
+
+.heroName{
+    padding: 2px;
+    margin-bottom: 5px;
+    font-size: 25px;
+}
+
+.favBtn, .detailsBtn{
+    border       : 2px solid white;
+    border-radius: 8px;
+    position     : relative;
+    z-index      : 10;
+    color        : white;
+    text-align   : center;
+    background   : #cc127e;
+    outline      : none;
+    box-shadow   : 0 0 10px rgba(0, 0, 0, .5);
+    transition   : all .2s;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+.detailsBtn{
+    background: #11e6db;
+}
+
+.favBtn, .detailsBtn:hover{
+    cursor: pointer;
+}
+
